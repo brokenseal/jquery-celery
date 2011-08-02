@@ -1,0 +1,27 @@
+#celery-tasks {
+    padding:5px;
+    list-style-type:none;
+}
+#celery-tasks .ui-celery-task {
+    font-weight:bolder;
+    margin:0;
+    padding:5px 5px 5px 45px;
+    background:url("images/ajax-loader.gif") no-repeat 5px 50%;
+    min-height:36px;
+    border:1px solid #efefef;
+    
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+    /*line-height:36px;*/
+}
+#celery-tasks .ui-celery-task.ui-celery-success {
+    background-image:url("images/success.png");
+}
+#celery-tasks .ui-celery-task.ui-celery-error {
+    background-image:url("images/error.png");
+}
+#celery-tasks .ui-celery-task.ui-celery-ajax-error {
+    background-image:url("images/ajax-error.png");
+}
